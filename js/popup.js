@@ -11,7 +11,7 @@ class Popup {
     }
     setEventListener() {
         console.log(this.popup);
-      // почему здесь используется стрелочная функция и как это связано с потерей контекста?
+      
         this.popup.addEventListener('click', (evt) => {
         // console.log(evt.target.classList);
         console.log(evt.target.closest('.popup__close'));
